@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+.heading {
+  width: 100%;
+  position: absolute;
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+
+.shows-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.show {
+  flex: 1;
+  border: solid 2px transparent;
+  background-color: grey;
+  float: left;
+  padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .show {
+    flex: 100%;
+  }
+}
+
+.show:hover{
+  background: rgba(13,103,130,0.5);
+  flex: 2;
+  transition: all 1s;
+} 
+
+.time{
+  color: black;
+  padding-left: 32px;
+  padding-top: 32px;
+  font-family: montserrat, sans-serif;
+}
+
+.title {
+  color: black;
+  padding: 12px 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
