@@ -1,0 +1,51 @@
+body {
+	background-color: #fffb8a;
+	font-family: sans-serif;
+}
+
+
+.acara {
+	margin-top: 200px;
+	margin-left: 20%;
+}
+
+.content {
+	font-size: 13px;
+	line-height: ;
+}
+
+.apa {
+	line-height: 0px;
+}
+
+.judul {
+	margin-left: 100px;
+}
+
+.kapan {
+	line-height: 0px;
+}
+
+.hari {
+	margin-left: 72px;
+}
+
+.jam {
+	margin-left: 172px;
+
+}
+
+.keterangan {
+	margin-top: 50px;
+
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 0pt;
+}
+
+p {
+	font-size: 13px;
+}
+
