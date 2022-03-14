@@ -1,0 +1,23 @@
+body {
+	background-image: url(pattern.jpg);
+	font-family: sans-serif;
+}
+
+section{
+    margin: 100px 100px;
+    background-color: #6e8298;
+    padding: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: white;
+}
+
+.title{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+.article {
+    font-family: Helvetica;
+}
