@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+ 
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 10px 100px 0;
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+.top-wrapper p {
+ margin-top:20px;
+ margin-bottom: -19px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.eksplor {
+  background-color: transparent;
+  text-align: center;
+  margin-top:65px;
+  color: black;
+  font-weight: bold;
+  border: 3px solid black;
+}
+
+.btn {
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Change the position property to fixed, and top property to 0 */
+  position: fixed;
+  top: 0;
+  
+  /* Change the z-index property to 10 */
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left h1{
+  float: left;
+  font-weight:bold;
+  color: white;
+  padding-bottom:100px;
+  padding-right:400px;
+}
+.header-left a{
+  color: white;
+  font-size: 18px;
+  padding-right:25px;
+  line-height:65px;
+}
+
+.header-right li{
+  float: right;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
